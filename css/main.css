@@ -129,6 +129,13 @@ hr{
 	height: 12px;
 }
 
+.secondhr{
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	height: 12px;
+}
+
 .customers{
 	margin-bottom: 50px;
 	position: relative;
@@ -363,4 +370,58 @@ footer p{
 	font-size: 10px;
 	color: #999;
 	margin-top: 50px;
+}
+/*media queries*/
+@media(max-width: 1147px){
+	.crumple a,
+	.right-arrow{
+		display: none;
+	}
+}
+
+@media(max-width: 980px){
+	.logos{
+		display: none;
+	}
+}
+
+@media(max-width: 912px){
+	.secondhr, .book{
+		display: none;
+	}
+}
+
+@media(max-width: 842px){
+	.rework{
+		display: none;
+	}
+}
+@media(max-width: 812px){
+	.programs a{
+		margin: 5px 0px;
+	}
+}
+
+@media(max-width: 750px){
+	.programs a{
+		display: none;
+	}
+}
+
+@media(max-width: 750px){
+	.programs{
+		height: 0px;
+	}
+}
+
+@media(max-width: 748px){
+	.meet, .arrow{
+		display: none;
+	}
+}
+
+@media(max-width: 448px){
+	.column{
+		display: inline-block;
+	}
 }
